@@ -1,0 +1,5 @@
+target/
+src/key.bin
+src/passwords.json
+key.bin
+passwords.json
