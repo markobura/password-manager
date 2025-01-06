@@ -39,7 +39,6 @@ impl PasswordManager {
         }
     }
 
-    // Čuva lozinke u fajlu
     fn save_passwords_to_file(&self) {
         let data = serde_json::to_string(&self.passwords).unwrap();
         fs::write(STORAGE_FILE, data).unwrap();
